@@ -36,10 +36,11 @@
 
 ## 截图
 
-![主界面](https://user-images.githubusercontent.com/你的用户名/替换为图片链接.png)
+![主界面](https://github.com/user-attachments/assets/3c196524-847b-41c2-b343-1cd08d508e91)
 
-![AI消除](https://user-images.githubusercontent.com/你的用户名/替换为图片链接.png)
+![AI消除选区](https://github.com/user-attachments/assets/3c196524-847b-41c2-b343-1cd08d508e91)
 
+![AI消除效果](https://github.com/user-attachments/assets/4976c5e0-fe19-4caa-b704-30320cf39cdf)
 > 截图上传方法见 [截图上传说明.txt](./截图上传说明.txt)
 
 ---
