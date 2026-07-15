@@ -36,12 +36,11 @@
 
 ## 截图
 
-> TODO: 添加应用截图
+![主界面](https://user-images.githubusercontent.com/你的用户名/替换为图片链接.png)
 
-<!-- 
-![主界面](docs/screenshots/main.png)
-![AI消除](docs/screenshots/ai-erase.png)
--->
+![AI消除](https://user-images.githubusercontent.com/你的用户名/替换为图片链接.png)
+
+> 截图上传方法见 [截图上传说明.txt](./截图上传说明.txt)
 
 ---
 

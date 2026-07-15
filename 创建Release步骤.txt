@@ -1,0 +1,55 @@
+创建 GitHub Release 的步骤
+==========================
+
+ Release 是 GitHub 上的一个功能，相当于给项目打标签并写版本说明。用户可以通过 Release 页面下载你的代码或查看版本信息。
+
+
+第一步：准备 release 说明
+--------------------------
+
+我已经帮你写好了 release 说明，文件是：
+
+   C:\Users\WD\wps-image-app\.github-prep\release-notes-v1.0.0.md
+
+你可以直接用，也可以自己改。
+
+
+第二步：在 GitHub 上创建 Release
+--------------------------------
+
+1. 打开你的 GitHub 仓库页面
+   例如：https://github.com/你的用户名/wps-image-app
+
+2. 点击右侧的 "Releases" 标签
+
+3. 点击 "Create a new release" 按钮
+
+4. 填写信息：
+
+   - Choose a tag: 输入 v1.0.0，然后点击 "Create new tag: v1.0.0"
+   - Target: 选择 main
+   - Release title: 输入 WPS图片复刻版 v1.0.0
+   - Description: 把 release-notes-v1.0.0.md 里的内容复制粘贴到这里
+
+5. 勾选 "Set as the latest release"
+
+6. 点击 "Publish release"
+
+
+第三步：验证
+------------
+
+1. 刷新仓库页面
+2. 右侧应该显示 "Releases 1"
+3. 点击进去可以看到 v1.0.0 的说明
+
+
+小技巧
+------
+
+- 以后每次大更新都可以创建一个 Release，比如 v1.1.0、v2.0.0
+- 版本号规则：主版本.次版本.修订号
+  - 主版本：大更新，不兼容旧版
+  - 次版本：新增功能
+  - 修订号：bug 修复
+- 如果后面用 PyInstaller 打包了 exe，可以把 exe 文件作为 Release 附件上传
